@@ -13,7 +13,7 @@ conda search --full-name python
 conda create -n py38_19 python==3.8.19
 
 ### 移除虛擬空間py38_19
-conda remove -n py38_19 python==3.8.19 -all
+conda remove -n py38_19 --all
 
 ### 使用虛擬環境
 conda activate py38_19
