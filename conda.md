@@ -6,7 +6,7 @@ conda info --env
 conda create -n py38_19 python==3.8.19
 
 ## 移除虛擬空間py38_19
-conda remove -n py38_19 python==3.8.19
+conda remove -n py38_19 python==3.8.19 -all
 
 ## 安裝PACKAGE，建議使用conda
 conda install XXX
