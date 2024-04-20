@@ -24,3 +24,9 @@ conda install XXX
 
 ## 查看PACKAGE的版本, 例如 numpy
 conda search numpy
+
+## conda更新
+conda update conda
+
+## 虛擬環境更新PYTHON版本, version即版本號例如3.8.19
+conda install python=<version>
